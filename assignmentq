@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOgkaqoZSJBaOWLBzDOefLZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maheenabid700/first-project/blob/main/assignmentq\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rYqMWL7BslUx",
+        "outputId": "f10c6bd0-2a85-4730-ded1-4ef49181d0d9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the first integer:9\n",
+            "enter the first integer:8\n",
+            "The sum of 9 and 8 is 17\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1=int (input(\"enter the first integer:\"))\n",
+        "num2=int(input(\"enter the first integer:\"))\n",
+        "result = num1 + num2\n",
+        "print(f\"The sum of {num1} and {num2} is {result}\")"
+      ]
+    }
+  ]
+}
