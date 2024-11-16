@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPVibVsjcAeALPWAg2iA5PB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/maheenabid700/first-project/blob/main/colab%20file%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "Einf_I_4yeVD",
+        "outputId": "f943d5d0-347e-4f5a-8ba0-7a654b2dc732"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What do you want?sorry\n",
+            "Sorry , I only tell jokes\n"
+          ]
+        }
+      ],
+      "source": [
+        "PROMPT: str = \"What do you want?\"\n",
+        "JOKE: str = \"Here is a joke for you! Tanzeel is heading out to the store.\"\n",
+        "SORRY: str = \"Sorry , I only tell jokes\"\n",
+        "\n",
+        "def main():\n",
+        "  #Promopt the user for input\n",
+        "  user_input = input(PROMPT).strip().lower()\n",
+        "\n",
+        "  #Cheak if the user asked for a joke\n",
+        "  if \"joke\" in user_input :\n",
+        "    print(JOKE)\n",
+        "  else:\n",
+        "    print(SORRY)\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "  main()"
+      ]
+    }
+  ]
+}
